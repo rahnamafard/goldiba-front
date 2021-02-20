@@ -1,4 +1,4 @@
-FROM m.docker-registry.ir/node:12.3.1
+FROM node:10
 
 ENV LC_ALL=C.UTF-8 \
     HOST=0.0.0.0
