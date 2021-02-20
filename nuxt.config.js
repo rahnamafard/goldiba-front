@@ -126,8 +126,8 @@ export default {
    ** See https://axios.nuxtjs.org/options
    */
   axios: {
-    baseURL: "http://localhost:8000/api"
-    // baseURL: "http://135.181.168.71:8000/api"
+    // baseURL: "http://localhost:8000/api"
+    baseURL: "http://135.181.67.47:8000/api"
   },
 
   /*
