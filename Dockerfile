@@ -3,9 +3,9 @@ FROM m.docker-registry.ir/node:12.3.1
 ENV LC_ALL=C.UTF-8 \
     HOST=0.0.0.0
 
-COPY . /opt/goldiba/front/
+COPY . /opt/goldiba-site/client/
 
-WORKDIR /opt/goldiba/front/
+WORKDIR /opt/goldiba-site/client/
 
 RUN npm ci \
     && npm run build
