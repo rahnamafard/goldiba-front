@@ -1,0 +1,3 @@
+docker build -t goldiba-front .
+docker rm -f front
+docker run -d --name front -p 8080:3000 goldiba-front

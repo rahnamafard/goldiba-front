@@ -1,0 +1,177 @@
+$background_color: #fdfbfb;
+$primary_color: #f7c4c9;
+$primary_color_light: #fceeef;
+$accent_color: #ffcdbb;
+$accent_color_light: #fff0ec;
+$secondary_color: #25bfd5;
+$secondary_color_light: #ebf8fa;
+$info_color: #75706e;
+
+$main_font: iranyekan;
+
+html {
+  overflow-y: auto !important;
+}
+
+body {
+  text-align: right;
+  background-color: $background_color;
+  overflow: auto;
+}
+
+a {
+  text-decoration: none;
+  color: $info_color !important;
+}
+
+a:hover {
+  color: $secondary_color !important;
+}
+
+.v-application {
+  font-family: $main_font !important;
+}
+
+.v-app-bar .v-toolbar__content {
+  background-color: $primary_color_light;
+  width: 100%;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+header.v-sheet.v-toolbar.v-app-bar {
+  z-index: 10;
+}
+
+nav.v-navigation-drawer {
+  z-index: 20;
+}
+
+.v-btn {
+  letter-spacing: 0 !important;
+}
+
+.v-input.v-text-field .v-input__slot {
+  background-color: $secondary_color_light !important;
+}
+
+.v-input {
+  border-radius: 20px;
+}
+
+.v-text-field > .v-input__control > .v-input__slot::before {
+  border-style: unset !important;
+}
+
+// for tag input chips
+.tag-input span.chip {
+  background-color: #d21919;
+  color: #fff;
+  font-size: 1em;
+}
+
+.tag-input span.v-chip {
+  background-color: #1976d2;
+  color: #fff;
+  font-size: 1em;
+  padding-left: 7px;
+}
+
+.tag-input span.v-chip::before {
+  content: "label";
+  font-family: "Material Icons";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  // -webkit-font-feature-settings: "liga";
+  -webkit-font-smoothing: antialiased;
+}
+
+// Color Choices
+.v-chip.color-chip {
+  width: 54px;
+  transition: 0.5s !important;
+  border-radius: 20px !important;
+  border-top-left-radius: 40px !important;
+}
+.v-chip.color-chip.color-selected {
+  box-shadow: 0 5px 8px 0px #dadada;
+  margin-top: -3px !important;
+  border-radius: 20px !important;
+}
+
+// Toast Errors
+.my-toast-error {
+  font-family: $main_font !important;
+  font-weight: normal !important;
+  direction: rtl !important;
+}
+
+.my-taost-container {
+  font-family: $main_font !important;
+  font-weight: normal !important;
+
+  direction: rtl !important;
+}
+
+.toasted-container .toasted .action {
+  margin: 5px 7px 5px -7px !important;
+  color: white !important;
+}
+
+.search-bar {
+  background-color: $secondary_color;
+  border-radius: 20px;
+  color: white;
+}
+
+.light-box-shadow {
+  transition: 0.2s;
+  box-shadow: 0 12px 15px 0px $primary_color_light !important;
+}
+
+.light-box-shadow:hover {
+  box-shadow: 0 25px 20px 0px $primary_color_light !important;
+}
+
+.product-item {
+  transition: 0.2s;
+}
+
+.product-item:hover {
+  margin: -12px 0 0 0;
+  padding: 0 0 12px 0;
+}
+
+.border-radius-20 {
+  border-radius: 20px !important;
+}
+
+// .v-sheet.v-card {
+//   border-radius: 20px !important;
+// }
+
+// .v-sheet {
+//   border-radius: 20px !important;
+// }
+
+// .v-data-table {
+//   border-radius: 20px !important;
+// }
+
+// .v-data-footer__select .v-select {
+//   border-radius: 10px !important;
+// }
+
+.recharge {
+  background: $accent_color_light;
+  padding: 20px;
+  border-radius: 20px;
+}
